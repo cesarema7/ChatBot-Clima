@@ -1,0 +1,13 @@
+org: cesarema7
+app: my-bot
+# Welcome to Serverless!
+
+service: true
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  getWeather:
+    handler: handler.getWeather
