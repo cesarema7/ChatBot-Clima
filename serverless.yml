@@ -1,5 +1,3 @@
-org: cesarema7
-app: my-bot
 # Welcome to Serverless!
 
 service: true
